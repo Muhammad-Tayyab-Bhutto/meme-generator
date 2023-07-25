@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  padding: 20px 20px;
+  background: #000;
+  color: white;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: 60%;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: grid;
+  padding: 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px auto;
+  align-items: center;
+}
+
+.hero-image {
+  width: 90%;
+  padding: 30px ;
+}
+
+.hero-col-2 ul {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.hero-section-button{
+  color: white;
+  background: #000;
+  margin-top: 4px;
+  padding: 15px;
+  width: 60%;
+}
+
+.meme-generator {
+  padding: 50px;
+}
+
+.meme-generator-input-box1{
+  padding: 10px;
+  width: 28%;
+  align-items: center;
+  margin-left: 20%;
+}
+.meme-generator-input-box2{
+  padding: 10px;
+  width: 28%;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.meme-generator button {
+  color: white;
+  background: #000;
+  margin-top: 20px;
+  padding: 15px;
+  width: 61%;
+  margin-left: 20%;
+}
+
+.memes-image {
+  width: 50%;
+  height: 400;
+  margin-top: 40px;
+  margin-left: 25%;
+  border-radius: 20px;
+  align-items: center;
+}
+
+/* .boxes {
+  height: 100px;
+  width: 100px;
+  border: 1px solid rgb(250, 246, 246);
+  display: inline-block;
+  margin-right: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+.sign-up-form {
+  display: grid;
+  padding: 50px;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+input {
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.sign-up-form h1 {
+  align-items: center;
+  margin-left: 42.5%;
+}
+
+.checkbox {
+  margin-left: 40%;
+}
+
+.checkbox-lable{
+  margin-left: -29%;
+}
+
+.submit-btm{
+  margin-right: 40%;
+  margin-left: 40%;
+} */
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 5px;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  
+  margin-top: -90px;
+}
+
+.top {
+  margin-top: -350px;
+
+}
